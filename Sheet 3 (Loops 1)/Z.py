@@ -1,0 +1,6 @@
+a , b , c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+ans = max(a , b ,c) - min (a , b , c)
+print(ans)
